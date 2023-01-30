@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th{
+          /* padding: 10px; */
+        }
+        td{
+           border: 1px solid black;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Enrollment number</th>
+            <th>Name</th>
+            <th>Mobile</th>
+            <th>E-mail id</th>
+        </tr>
+        <tr>
+            <td>12030400135</td>
+            <td rowspan="2">Meghna</td>
+            <td>925698725</td>
+            <td>abc@gmail.com</td>
+        </tr>
+        <tr>
+            <td>12030400136</td>
+            <td>6598245692</td>
+            <td>azala@gmail.com</td>
+        </tr>
+        <tr>
+            <td >12030400135</td>
+            <td colspan="3">Meghna 6598245692 azala@gmail.com</td>
+        </tr>
+        <tr>
+            <td>12030400136</td>
+            <td>ram</td>
+            <td>7891564548</td>
+            <td>ram@gmail.com</td>
+        </tr>
+        <tr>
+            <td>12030405600</td>
+            <td colspan="3">925698725 abc@gmail.com</td>
+           
+        </tr>
+    </table>
+</body>
+</html>
